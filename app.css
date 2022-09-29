@@ -1,0 +1,60 @@
+.mainTitle {
+    color: darkblue;
+    text-align: center;
+}
+.sideBar {
+    flex: 1 1 25%;
+    max-width: 300px;
+    padding: 45px;
+    background: #90b4ce; 
+    order: -1;
+    border-radius: 30px;
+}
+.sideBar ul {
+    list-style: none;
+}
+
+.aboutMe {
+    color: #fffffe;
+    padding: 0px;
+}
+
+.bio {
+    text-indent: 5em;
+    margin: 1rem;
+    background: #5f6c7b;
+    border-radius: 30px;
+  }
+  .bio p{
+    text-indent: 5em;
+    margin: 10px;
+  }
+.content {
+    flex: 2 2 75%;
+    background: #fffffe;
+    padding: 20px 35px;
+    margin: 0%;
+    display: flex;
+}
+.golfImage {
+    height: 30rem;
+    padding: 1rem;
+    border-radius: 50% 20% / 10% 40%;
+}
+.hobbies ul {
+    max-width: 350px;
+}
+.experiences ul {
+    max-width: 350px;
+}
+/* @media (min-width: 764px) {
+    .content {
+        flex: 2 2 75%;
+        background: #fffffe;
+        padding: 20px 35px;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
